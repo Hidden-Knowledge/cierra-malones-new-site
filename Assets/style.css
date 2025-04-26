@@ -38,8 +38,34 @@ nav a {
   font-size: 1rem;
 }
 
+/* Sticky Header */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #f7e6ea;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Animate nav links on hover */
+nav a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
 nav a:hover {
   color: #bf4d63;
+  transform: scale(1.05);
+}
+
+/* Smooth header title animation */
+header h1 {
+  transition: all 0.4s ease;
+}
+
+header h1:hover {
+  color: #bf4d63;
+  letter-spacing: 1px;
 }
 
 /* Main content styling */
