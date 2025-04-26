@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+/* Body background and text */
+body {
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Header styling */
+header {
+  background-color: #f7e6ea;
+  color: #222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #bf4d63;
+}
+
+/* Main content styling */
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  font-size: 2rem;
+  color: #bf4d63;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+  margin: 20px 0;
+}
+
+/* Footer styling */
+footer {
+  background-color: #4b4b4b;
+  color: #fefefe;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Make it mobile responsive */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
